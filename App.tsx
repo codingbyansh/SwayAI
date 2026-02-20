@@ -163,7 +163,6 @@ const App: React.FC = () => {
         user={user}
         onLogout={handleLogout}
       />
-// ... (rest of render)
 
       <main className="max-w-6xl mx-auto px-4 md:px-6 pt-8">
         
