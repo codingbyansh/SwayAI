@@ -1,3 +1,4 @@
+
 import { Tone, Language } from './types';
 
 export const APP_NAME = "SWAY";
@@ -5,8 +6,12 @@ export const APP_NAME = "SWAY";
 export const TONE_DESCRIPTIONS: Record<Tone, string> = {
   [Tone.POLITE]: "Soft, respectful, safe",
   [Tone.FRIENDLY]: "Warm, open, conversational",
-  [Tone.CONFIDENT]: "Assertive but respectful",
-  [Tone.PLAYFUL]: "Light humor, no sarcasm",
+  [Tone.CONFIDENT]: "Assertive, direct, attractive",
+  [Tone.PLAYFUL]: "Light humor, wholesome teasing",
+  [Tone.FLIRTY]: "Romantic, spicy, suggestive",
+  [Tone.SARCASTIC]: "Witty, dry, edgy humor",
+  [Tone.CASUAL]: "Low effort, chill, brief",
+  [Tone.DRAMATIC]: "Expressive, emotional, extra",
 };
 
 export const LANGUAGE_LABELS: Record<Language, string> = {
