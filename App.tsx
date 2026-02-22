@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Header from './components/Header';
+import SiteHeader from './components/SiteHeader';
 import InputSection from './components/InputSection';
 import OptionsSelector from './components/OptionsSelector';
 import Button from './components/Button';
@@ -265,7 +265,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen pb-24 bg-[#fafafa]">
-      <Header
+      <SiteHeader
         credits={{ remaining: user.credits, isPremium: user.isPremium }}
         onOpenPremium={() => setShowPremiumModal(true)}
         onOpenGhosting={handleGhostingClick}
